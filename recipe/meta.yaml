@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/TidyMultiqc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/TidyMultiqc/TidyMultiqc_{{ version }}.tar.gz
-  sha256: face354ea86a639625b90376a52d53529f25d5b4b4bfb4f990821e7aedc08f29
+  sha256: 19fb1955e818f5d5879b060539b865ae671736a1828922c39f9b26a6b5c0d3be
 
 build:
   merge_build_host: true  # [win]
