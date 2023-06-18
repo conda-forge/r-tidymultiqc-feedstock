@@ -1,11 +1,11 @@
-About r-tidymultiqc
-===================
+About r-tidymultiqc-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tidymultiqc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=TidyMultiqc
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tidymultiqc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Converts 'MultiQC' Reports into Tidy Data Frames
 
